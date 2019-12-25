@@ -1,0 +1,11 @@
+.list {
+    cursor: pointer;
+  }
+  .list :hover:after,
+  .list .fav:after {
+    content: ' \2605';
+    color: rgb(255, 203, 0);
+  }
+  .list .fav:hover:after {
+    content: ' \2606';
+  }
